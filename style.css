@@ -1,0 +1,26 @@
+body {
+    background: #6a03df;
+}
+
+#profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: white 6px solid;
+    max-height: 20%;
+    max-width: 20%;
+    z-index: 2;
+}
+
+.container {
+    background: #df039688;
+    width: 1000px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+    border-radius: 50px; 
+}
