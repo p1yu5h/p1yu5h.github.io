@@ -1,7 +1,7 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.grid-2{
+.grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -15,8 +15,10 @@ body{
 
 }
 
-h2,.white{
+h2,.logo{
     color: #fff;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
 }
 
 a{
@@ -70,7 +72,7 @@ a{
     padding-left: 0;
     width: 50%;
 }
-/* animations / utilities */
+
 .section-2 a:hover{
     font-size: 1.3rem;
     color: #fff;
@@ -84,9 +86,9 @@ a{
     transition: 0.3s;
 }
 
-.white:hover{
+.logo:hover{
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    transition: 0.5s;
 }
 
 /* media queres */
