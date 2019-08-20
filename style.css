@@ -91,7 +91,7 @@ a{
 
 /* media queres */
 @media(max-width:780px){
-    .grid-2{
+    .grid{
         grid-template-columns: 1fr;
         margin-bottom: 2rem;    
     }
